@@ -15,8 +15,8 @@ unsigned long dateDernierChangementRPM = 0;
 unsigned long dateDernierChangementKMH = 0;
 float intervalleKMH = 0;
 float intervalleRPM = 0;
-char MessageVent[] = " VENT\n"; // alarm message to be sent; '\n' is a forced terminator char
-char MessageTest[] = " EOLIENNE\n"; // alarm message to be sent; '\n' is a forced terminator char
+char MessageVent[] = " V\n"; // alarm message to be sent; '\n' is a forced terminator char
+char MessageTest[] = " E\n"; // alarm message to be sent; '\n' is a forced terminator char
 String chaine;
 int rotaAnemo = 0;
 int rotaEol = 0;
