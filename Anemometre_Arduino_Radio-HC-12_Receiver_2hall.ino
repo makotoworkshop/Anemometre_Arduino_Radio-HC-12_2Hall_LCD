@@ -65,7 +65,7 @@ pour chaque ligne on fait :*/
 //      Serial.println ("fin de ligne");   // debug
 //      Serial.println (chaine);           // debug
 
-        if (chaine.endsWith("VENT\n")) {  //détection de fin de ligne méthodes String
+        if (chaine.endsWith("V\n")) {  //détection de fin de ligne méthodes String
 //          Serial.println ( "vent détecté");    // debug
           char resultat[chaine.length()+1];   // déclare une char "resultat" avec la longueur+1 de la String
           chaine.toCharArray(resultat, chaine.length()+1);  // convertis la String en chaine
